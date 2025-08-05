@@ -14,10 +14,9 @@ VARIBLE DESCRIPTION
 4.Access each element using arr[i] inside the loop.
 5.Print each element using cout.
 
-
-✅ 2. Algorithm
-🔷 Part A: Array Input, Sum, Average, Max, Min
-
+ 2. Algorithm
+ Part A: Array Input, Sum, Average
+ 
 Start the program.
 Prompt the user to enter the number of elements n.
 Declare an integer array arr of size n.
@@ -25,25 +24,27 @@ Read n elements into the array.
 Initialize sum to 0, max and min to the first element.
 Loop through the array:
 Add each element to sum.
-Update max if current element is greater.
+
+ Maximum and Minimum :
+ Update max if current element is greater.
 Update min if current element is smaller.
 Compute average: avg = (float)sum / n.
 Display sum, avg, max, and min.
 
-🔷 Part B: String Initialization
+ Part B: String Initialization
 
 Initialize str1 using direct assignment ("Hello").
 Initialize str2 using constructor syntax ("World").
 Concatenate str1 and str2 into str3.
 Display all three strings.
 
-🔷 Part C: String Reversal
+ Part C: String Reversal
 
 Copy str3 into rev.
-Reverse rev using the reverse() function.
+using for loop compring the string index.
 Print the reversed string.
 
-🔷 Part D: Palindrome Checking
+ Part D: Palindrome Checking
 
 Prompt the user to enter a string check.
 Copy check into reversedCheck.
@@ -69,5 +70,5 @@ End the program.
 | `str3`            | `string`      | Concatenation of `str1` and `str2`     |
 | `rev`             | `string`      | Stores the reversed form of `str3`     |
 | `check`           | `string`      | Input string for palindrome check      |
-| `reversedCheck`   | `string`      | Reversed version of `check`            |
-p
+          |
+
